@@ -1,7 +1,7 @@
 ---
-title: "first post"
-date: 2017-10-20 08:26:28 -0400
+title: "첫번째 포스팅"
+date: 
 categories: jekyll update
 ---
 
-첫번째 포스트 test
+github 첫번째 포스트 TEST
