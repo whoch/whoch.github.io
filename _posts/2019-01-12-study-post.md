@@ -25,9 +25,10 @@ categories: jekyll test hohoho
     }
     <!-- Custom styles for this template -->
     <link href="/css/clean-blog.min.css" rel="stylesheet">
-<br/>
-http://localhost:8080/<B>index</B> 인 경우, 정적 파일의 경로 앞에 “/” 없이 css/~~로 사용하고 -->  <B>href="css/file.css</B><br/>
-http://localhost:8080/<B>istudy/index2</B> 인 경우, 경로 앞에 “/”를 붙여준다 --> <B>href="/css/file.css</B><br/><br/><br/>
+
+
+http://localhost:8080/<B>index</B> 인 경우, 정적 파일의 경로 앞에 “/” 없이 <href="css/~로 사용하고<br/>
+http://localhost:8080/<B>study/index2</B> 인 경우, 경로 앞에 “/”를 붙여준다
 
 
 -해결경로<br/>
@@ -45,7 +46,7 @@ http://localhost:8080/<B>istudy/index2</B> 인 경우, 경로 앞에 “/”를 
 
 
     http://localhost:8080/study/index.html
-    http;//localhost:8080/css/clean-blog.min.css<br/>
+    http;//localhost:8080/css/clean-blog.min.css
 
 이 경우엔 같은 위치에 css가 없으므로 당연히 적용이 되지 않으니까 <link href=”/css/~”처럼 절대경로로 바꿔준다<br/><br/>
 
