@@ -39,12 +39,14 @@ http://localhost:8080/<B>istudy/index2</B> 인 경우, 경로 앞에 “/”를 
 이 말은 src/main/resources/static 하위의 파일들은 http://localhost:8080/css/file.css 처럼 접근가능 하다는 뜻<br/><br/>
 
     http://localhost:8080/index.html
-    http;//localhost:8080/css/clean-blog.min.css<br/>
+    http;//localhost:8080/css/clean-blog.min.css
+
 그래서 이 경우엔 같은 위치에 css가 있으므로 “/”없이 <link href=”css/~”처럼 상대경로로 가능했고<br/>
 
 
     http://localhost:8080/study/index.html
     http;//localhost:8080/css/clean-blog.min.css<br/>
+
 이 경우엔 같은 위치에 css가 없으므로 당연히 적용이 되지 않으니까 <link href=”/css/~”처럼 절대경로로 바꿔준다<br/><br/>
 
 
