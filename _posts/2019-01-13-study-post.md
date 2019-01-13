@@ -4,7 +4,7 @@ date: 2019-01-13 12:54:28 -0400
 categories: jekyll
 ---
 
-***
+* * *
 APPLICATION FAILED TO START
 
 
@@ -18,7 +18,7 @@ The injection point has the following annotations:
 Action:
 
 Consider defining a bean of type 'com.example.demo.dao.DbMapper.TestMapper' in your configuration.
-***
+* * *
 
 - 발생 경위
 
@@ -30,8 +30,8 @@ Consider defining a bean of type 'com.example.demo.dao.DbMapper.TestMapper' in y
 
 
 boardMapper를 boardMApper로 오타냄
-    mapper namespace="com.example.demo.dao.DbMapper.BoardMapper"
-    mapper namespace="com.example.demo.dao.DbMapper.BoardMApper"
+	    mapper namespace="com.example.demo.dao.DbMapper.BoardMapper"
+	    mapper namespace="com.example.demo.dao.DbMapper.BoardMApper"
 
 근데 왜 BoardMapper가 아니고 TestMapper가 문제 생겼다고 알려준거야?,,
 
