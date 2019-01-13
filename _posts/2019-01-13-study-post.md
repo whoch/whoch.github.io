@@ -4,7 +4,7 @@ date: 2019-01-13 12:54:28 -0400
 categories: jekyll
 ---
 
-***************************
+***
 APPLICATION FAILED TO START
 
 
@@ -18,7 +18,7 @@ The injection point has the following annotations:
 Action:
 
 Consider defining a bean of type 'com.example.demo.dao.DbMapper.TestMapper' in your configuration.
-***************************
+***
 
 - 발생 경위
 
@@ -27,15 +27,16 @@ Consider defining a bean of type 'com.example.demo.dao.DbMapper.TestMapper' in y
 
 - 해결 
   - 'resources/mybatis/mapper/BoardDB.xml 파일에서
-  
+<pre><code>
     <mapper namespace="com.example.demo.dao.DbMapper.BoardMapper"> 이부분을
     <mapper namespace="com.example.demo.dao.DbMapper.BoardMApper"> MApper로 오타냄
-  
+</code></pre>
+
 이렇게 A를 대문자로 오타를 내서 발생한 에러였다
 근데 왜 BoardMapper가 아니고 TestMapper가 문제 생겼다고 알려준거야?,,
 
 - 해결경로
-STS를 하나 더 켜서 수정전 버전을 임포트해서 순서대로 하나씩 바꾸면서 확인해봄
+  - STS를 하나 더 켜서 수정전 버전을 임포트해서 순서대로 하나씩 바꾸면서 확인해봄
 
 - 깨달은 점
   - TestMapper라고 알려줘도 내가 작업중인 Mapper에 문제가 생긴걸 수도 있다
