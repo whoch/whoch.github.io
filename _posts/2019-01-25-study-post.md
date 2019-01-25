@@ -7,7 +7,7 @@ categories: jekyll
 오늘 팀 프로젝트에서 한 것
 첫 번째 한 것
 * SeminarInfo 테이블의 `위치` 컬럼 명을 Address에서 Locale로 변경후 팀원들에게 내용 공유
-**이유 : GroupStudyLog에서도 주소를 사용하는데 컬럼명이 서로 달라서 통일하기 위해
+  * 이유 : GroupStudyLog에서도 주소를 사용하는데 컬럼명이 서로 달라서 통일하기 위해
 
 두번째 한 것
 * Calendar 세미나 hover 할 때 강사 ID값을 NickName으로 표시되게 변경
@@ -63,3 +63,9 @@ schedule.put("end", info.getSeminarEndDate().toLocalDateTime().plusHours(lecture
 * 하면서 git 용어를 자꾸 까먹는 것 같아 내 수준에 맞게 용어를 정리했다
 * 좀 더 멋있게 vim으로 사용하고 싶었지만 나에겐 시간이 얼마 남지 않아서 sts에 연동하는 쉬운 방법을 택했다
   * 링크 : https://jwgye.tistory.com/38
+  
+  
+ 내일 할 것
+ * 팀 프로젝트 Planner의 메인 페이지를 만들어보려고 한다
+ * 캘린더는 60%정도 구현된 것 같은데 여기서 잠시 스탑하는 이유는 캘린더에 연동될 다른 페이지가 아직 구현이 안됐기 때문이다
+ * 이번 주말은 ajax랑 layout 그리고 jquery,script,git등을 공부를 많이  될 것같다
