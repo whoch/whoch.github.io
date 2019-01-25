@@ -21,7 +21,7 @@ left JOIN C ON A.name = C.name
 * 공부를 제대로 안하고 join을 썼더니 오늘에서야 WHERE가 아닌 ON이 맞다는걸 알게 됐다
 * 그래서 쿼리 실행 순서가 다른가?도 궁금해졌고 3개의 테이블을 JOIN 해야하니 조금이라도 양이 적어지게 걸러지는? 쿼리가 먼저 실행되길 원했다
 * 쿼리 실행 순서 
-  * 링크 : https://delirussum.tistory.com/142
+  * 링크 : <https://delirussum.tistory.com/142>
 
 <pre><code>
 FROM
@@ -39,7 +39,7 @@ TOP
 * ON이 WHERE보다 빠르고 JOIN보다도 빨리 실행된다
 * 그리고 테스트 해보니 1개의 JOIN일 땐 WHERE를 써도 에러가 안났지만 2개부턴 에러가 나서 ON을 쓸 수 밖에 없는 운명이었다
 * mySql JOIN의 종류에 대해 알게됐다
-  * 링크 : http://rapapa.net/?p=311
+  * 링크 : <http://rapapa.net/?p=311>
   
 세번째 한 것
 * 세미나 테이블이 StartDate 컬럼은 시간이 있고(TimeStamp) EndDate엔 날짜만 있어서(date) 캘린더에서 endDate에서 시간 설정 해줘야했음
@@ -62,7 +62,7 @@ schedule.put("end", info.getSeminarEndDate().toLocalDateTime().plusHours(lecture
 * FullCalendar 구현을 내 프로젝트에서 연습삼아 따로 하고있었는데 프로젝트가 더 커지기전에 합치는 연습을 해봐야 할 것 같아서 git연습 겸 프로젝트에 Calendar를 추가했다
 * 하면서 git 용어를 자꾸 까먹는 것 같아 내 수준에 맞게 용어를 정리했다
 * 좀 더 멋있게 vim으로 사용하고 싶었지만 나에겐 시간이 얼마 남지 않아서 sts에 연동하는 쉬운 방법을 택했다
-  * 링크 : https://jwgye.tistory.com/38
+  * 링크 : <https://jwgye.tistory.com/38>
   
   
  내일 할 것
